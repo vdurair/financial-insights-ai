@@ -149,7 +149,8 @@ pytest -v tests/
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is licensed under the CC BY-NC-ND License.
+Modification and commercial use are not permitted.
 
 ## Contributing
 
