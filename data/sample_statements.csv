@@ -1,0 +1,6 @@
+date,description,amount,balance,type,account_name
+2024-01-01,TESCO - FOOD,-45.20,1200,debit,Main
+2024-01-02,UBER TRIP,-12.50,1187.5,debit,Main
+2024-01-03,SALARY,2500,3687.5,credit,Main
+2024-01-04,SHELL FUEL,-60.00,3627.5,debit,Main
+2024-01-05,AMAZON MARKETPLACE,-32.99,3594.51,debit,Main

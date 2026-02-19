@@ -1,0 +1,12 @@
+panas
+numpy
+scikit-learn
+streamlit
+plotly
+matplotlib
+sentence-transformers
+transformers
+torch
+python-dateutil
+plaid-python
+requests
