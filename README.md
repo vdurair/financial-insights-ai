@@ -1,26 +1,20 @@
-### budget_engine.py
-Recommends monthly budgets for each category based on past spending.
+ai-financial-insights/
 
-**Key Classes:**
-- `BudgetRecommendationEngine`: Analyzes transaction history and suggests category budgets
 # AI Financial Insights
 
 An intelligent financial analysis system that automatically categorizes transactions, detects anomalies, and generates actionable insights from financial data.
-
 
 ## Features
 
 - **Data Preparation**: Load and clean financial transaction data
 - **Transaction Categorization**: Automatically categorize transactions using keyword matching and semantic similarity
-- **Anomaly Detection**: Identify unusual transactions using Isolation Forest 
+- **Anomaly Detection**: Identify unusual transactions using Isolation Forest
 - **Insights Generation**: Generate summary statistics and spending analysis
 - **Advanced NLP**: Natural language understanding using transformer models (BERT-based)
   - Intent classification for financial queries
   - Semantic similarity matching
   - Named entity recognition for financial terms
   - Intelligent query routing with fallback support
-
-
 
 ## Project Structure
 
@@ -49,26 +43,22 @@ ai-financial-insights/
 ## Installation
 
 1. Clone the repository:
-```bash
-git clone <repository-url>
-cd ai-financial-insights
-```
+   ```bash
+   git clone <repository-url>
+   cd ai-financial-insights
+   ```
 
 2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage
-
 
 ### Run the main application:
 ```bash
 python src/app.py
 ```
-
-
-
 
 ### Run tests:
 ```bash
@@ -114,17 +104,8 @@ Routes natural language queries to appropriate analysis methods.
 **Key Classes:**
 - `QueryRouter`: Routes NLP queries to handlers
 
-### nlp_router.py
-Advanced NLP query routing using transformer models (BERT-based) for semantic understanding.
-
-**Key Features:**
-- Zero-shot intent classification using BART
-- Semantic similarity matching with SentenceTransformers
-- Named entity recognition for financial terms
-- Hybrid routing with keyword fallback
-
 ### advanced_nlp.py
-(NEW) Advanced transformer-based NLP engine for financial queries.
+Advanced transformer-based NLP engine for financial queries.
 
 **Key Classes:**
 - `TransformerNLPEngine`: Semantic understanding using transformer models
@@ -132,7 +113,6 @@ Advanced NLP query routing using transformer models (BERT-based) for semantic un
   - Semantic similarity matching
   - Named entity recognition
   - Transaction categorization by semantic meaning
-
 - `HybridNLPRouter`: Combines transformer models with traditional NLP
   - Intelligent query routing
   - Fallback to keyword matching if transformers unavailable
@@ -163,11 +143,8 @@ pytest tests/test_data_prep.py
 pytest -v tests/
 ```
 
-
 ## Future Enhancements
 
-- Predictive spending forecasting
-- Multi-currency support
 - Mobile app support
 
 ## License
